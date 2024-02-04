@@ -13,4 +13,3 @@ git submodule update --init --recursive
 mkdir -p ~/.config/
 ln -s ~/dotfiles/.config/nvim  ~/.config/nvim
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-/usr/bin/nvim +PackerSync
